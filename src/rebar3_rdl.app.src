@@ -1,0 +1,14 @@
+{application, rebar3_rdl, [
+    {description, "A rebar plugin to transform RDL files into Erlang modules."},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, ["Apache-2.0"]},
+    {links, [{"Github", "https://github.com/joaohf/rebar3_rdl"}]}
+]}.
