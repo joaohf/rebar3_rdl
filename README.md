@@ -1,5 +1,10 @@
 # rebar3_rdl
 
+This is a rebar3 plugin that transform SystemRDL .rdl files into Erlang modules.
+
+The main focus is to provide APIs for serialize and deserialize register values read/write
+from hardware.
+
 ## How to use
 
 In our _rebar.config_ file add rebar3_rdl as a plugin:
